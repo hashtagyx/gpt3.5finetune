@@ -14,7 +14,7 @@ Generate Q&A Pairs using GPT-3.5.ipynb usage:
 2. Run this notebook locally using the pdf_chunk env i.e. ```conda activate pdf_chunk```
 3. The Q&A pairs output will be saved in the ```qapairs``` directory
 
-GPT-3.5-Turbo Finetuning.ipynb usage:<br>
+GPT-3.5-Turbo Finetuning.ipynb usage:<br><br>
 For finetuning:
 1. Ensure that there is the unformatted Q&A pairs jsonl file (e.g. qapairs/qapairs-2023-09-14.jsonl) in the ```qapairs``` directory OR <br>
 the formatted Q&A pairs jsonl files (e.g. finetuning/qapairs-2023-09-14.jsonl-train.jsonl and finetuning/qapairs-2023-09-14.jsonl-validation.jsonl) in the ```finetuning``` directory
